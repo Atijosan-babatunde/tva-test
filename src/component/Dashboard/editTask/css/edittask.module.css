@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+
+.parent{
+    padding: 2em 2em;
+}
+
+.content{
+    border-radius: 16px;
+    background: #FFF;
+    padding: 2em 2em;
+}
+
+.contenth2{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+
+.imgbtn{
+    cursor: pointer;
+}
+
+.contentbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2em;
+}
+
+.innercontenth1{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+
+.savebtn{
+    border-radius: 4px;
+    border: #2C3ADF;
+    background: #2C3ADF;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0.5em 0.5em;
+    width: 10%;
+}
+
+/* dropdown style */
+
+.rowname {
+    color: var(--grey-text, #999);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.035px;
+    margin-top:1em;
+}
+.dropDownrow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;
+}
+.dropdownToggle{
+    display:flex;
+    border-radius: 8px;
+    border: 1px solid var(--grey-50, #CCC);
+    background: var(--white-full, #FFF);
+    justify-content:space-between !important;
+    padding-left:10px;
+    padding-right:0px;
+    height: 50px;
+    align-items:center;
+    width: 100%;
+    margin-top: 1em;
+}
+.dropBox{
+    margin-top:1em;
+    color:#FCFCFD;
+    width:100%;
+    overflow:auto;
+}
+
+.dropDownValue {
+    color:#000;
+    text-decoration: none !important;
+    width: 100%;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.calculatorinput {
+    width : 100%;
+    height: 50px;
+    margin-top: 1em;
+    border-radius: 8px;
+    border: 1px solid var(--grey-50, #CCC);
+    background: var(--white-full, #FFF);
+    padding:0.7000em;
+}
+
+.formhold{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discone{
+    width: 48%;
+}
+
+.calculatorinputtextarea {
+    margin-top: 7px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-50, #CCC);
+    background: var(--white-full, #FFF);
+    padding: 0.5000em;
+    width: 100%;
+}
+.green {
+    color: var(--green, #7FE881);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 20px; 
+    letter-spacing: 0.035px;
+}
+
+.driverdoc{
+    height: 170px;
+    border-radius: 8px;
+    border: 1px dashed var(--grey-50, #CCC);
+    background: var(--white-blue, #F0F3FF);
+    margin-bottom: 17px;
+    margin-top:1em;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.driverdocp{
+    margin-top: 16px;
+      font-weight: 600;
+      font-size: 14px;
+      color: #666dff;
+      text-align: center;
+      cursor: pointer;
+}
+.spanned {
+    color: var(--grey-text, #999);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.btnrequest{
+    font-weight:bold;
+    border: none;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 180px;
+    padding: 0.7em 0.7em;
+    border-radius: 8px;
+    background: #2C3ADF;
+}
+
+.requestbut{
+    margin-top: 2em;
+}
+
+@media screen and (max-width:960px) {
+    .parent{
+        padding: 0;
+    }
+    .formhold{
+        display: grid;
+    }
+    .discone{
+        width: 100%;
+    }
+    .formhold{
+        justify-content:initial;
+    }
+    .btnrequest{
+        width:100%;
+    }
+}

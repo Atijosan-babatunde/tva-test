@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+.parent{
+  height: 80px;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  display: flex;
+  background: #ffffff;
+  justify-content: space-between;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.12);
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center; 
+    padding: 0em 2em;
+    cursor: pointer;
+    width: 18.6%;
+    background: #fff;
+}
+.logo{
+    width: 100px;
+}
+.textDiv{
+    padding-left: 0.6em;
+}
+.name{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 0.8em;
+     line-height: 17px;
+     letter-spacing: 0.05em;
+     color:#00040F;
+}
+
+.spanname{
+  margin-left: 2em;
+}
+
+.instant{
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 0.6em;
+     line-height: 17px;
+     letter-spacing: 0.1em;
+     color: #000000;
+}
+.row{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 80%;
+    justify-content: space-between;
+}
+.title{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #B3B3B3;   
+    padding: 0em 1.5em;
+    cursor: pointer;
+}
+.icons{
+    color: #B3B3B3;    
+    padding: 0em 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.passportDiv{
+    padding: 0.3em;
+    cursor: pointer;
+}
+.passport{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+
+/* // DROPDOWN  */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+}
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    line-height: 20px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    position: fixed;
+    margin-top: 0.1em;
+    padding-right: 2em;
+  }
+
+  @media screen and (max-width: 600px) {
+    .dropdownContent{
+      min-width: 200px;
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .dropdownContent{
+      min-width: 200px;
+      width: 270px;
+    }
+  }
+
+  .dropDownRow {
+    display: flex;
+    align-items: center;
+    margin: 1.1000em 0.9em;
+  }
+  .dropdownContent a {
+    color: #fff !important;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropIcon {
+    width: 20px;
+  }
+  
+  .logoTitleDiv {
+    /* // background: #fafaff;
+    // border-radius: 0px 16px 16px 0px; */
+    margin-left: 0em;
+    /* // height: 60px;
+    // width: 90%; */
+    display: flex;
+    align-items: center;
+    padding: 0em 0.5000em;
+    cursor: pointer;
+  }
+  .dropDowntitle {
+    color: var(--Grey-Primary, #373737);
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 166.667% */
+  }
+  .dropDowntitle:hover {
+    color: #9475d5;
+  }
+  
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+
+  /* //search Box */
+.search {
+  position: relative;
+  width: 23%;
+  padding-top: 0.5000em;
+  padding-left: 80px;
+  padding: 0.5000em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* // background: var(--white-blue, #F0F3FF); */
+}
+
+.searchinput {
+  border-radius: 5px;
+  background: var(--white-grey, #F9F9F9);
+  border: 2px solid #fff;
+  height: 40px;
+  width: 100%;
+  max-width: 783px;
+  padding: 7px;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+
+}
+
+:hover {
+  border: 2px solid 0f1f;
+}
+
+:hover {
+  border: 2px solid 0f1f;
+}
+
+::placeholder {
+  color: #696974;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.035px;
+  margin: 0.5000em;
+}
+
+.inputspan {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+
+.menuDiv{
+  cursor: pointer;
+}
+.menu{
+  color:#000;
+  font-size: 2em;
+  display: none;
+}             
+.modalParent{
+  background-color: #ffffff;
+}
+.modalMenu{
+  display: grid;
+}
+.modalClose{
+ display: flex;
+ justify-content: flex-end;
+}
+.modalMenufirst{
+  display: grid;
+}
+
+.hold{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width:960px) {
+  .parent{
+    padding:1em;
+    align-items: center;
+  }
+  .logoDiv{
+    padding: 0;
+  }
+  .row{
+    display: none;
+  }
+  .search {
+      display: none;
+  }
+  .modal-content{
+    width: 60% !important;
+  }
+  .titleModal{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 48px;
+    /* text-align: center; */
+    color: #ffffff;  
+    cursor: pointer;
+    text-decoration:none;  
+}
+.menu{
+  display: inline;
+  cursor: pointer;
+}
+}

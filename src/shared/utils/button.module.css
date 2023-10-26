@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../shared/utils/fonts/Gilroy-Regular.ttf);
+} 
+
+.btn{
+  font-weight:bold;
+    border: none;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 180px;
+    height: 49px;
+    border-radius: 8px;
+    background: #2C3ADF;
+}

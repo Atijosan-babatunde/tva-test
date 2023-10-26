@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+
+.content {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1em 1em;
+    margin-bottom: 2em;
+}
+
+.download{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .taskimg{
+    width: 700px;
+} */
+
+.cardh2{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 122.222% */
+    cursor: pointer;
+}
+
+.cardp{
+    color: #858585;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+}
+
+.cardspan{
+    color: #858585;
+    font-size: 18px;
+    padding-right: 3px;
+}
+
+.infoholder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redbut{
+    color: #FF4040;
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: rgba(255, 64, 64, 0.10);
+    padding: 5px;
+    margin: 5px;
+}
+
+.bluebut{
+    color: #2CD4DF;
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: rgba(44, 212, 223, 0.10);
+    padding: 5px;
+    margin: 5px;
+}
+
+.delinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    margin: 5px;
+}
+
+.assigned{
+    color: #858585;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2px; 
+    align-items: center !important;
+    margin-top: 1em;
+}
+
+.assignedimg{
+    width: 20%;
+    border-radius: 50px;
+    margin-left: 0.7em;
+}
+
+.description{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 183.333% */
+}
+
+.ico{
+    margin-right: 0.7em;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.imgcard{
+    width: 270px;
+}

@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+
+
+/* .parent{
+    margin-top: 7em;
+} */
+
+.taskcontent{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.btnrequest{
+    font-weight:bold;
+    border: none;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* width: 180px; */
+    padding: 0.7em 0.7em;
+    border-radius: 8px;
+    background: #2C3ADF;
+}
+
+.createicon{
+    padding-right: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align: auto;
+}
+
+.taskh1{
+    color: #2C3ADF;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.cardholder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.notstarted{
+    border-radius: 4px;
+    border: 1px solid rgba(255, 64, 64, 0.20);
+    background: rgba(255, 64, 64, 0.10);
+    padding: 0.7em 0.7em;
+    margin: 1em;
+}
+
+.cardcontent{
+    width: 30%;
+    margin: 1em;
+}
+
+.notstartedh2{
+    color: #FF4040;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+}
+
+.started{
+    border-radius: 4px;
+    border: 1px solid rgba(255, 179, 64, 0.20);
+    background: rgba(255, 179, 64, 0.10);
+    padding: 0.7em 0.7em;
+    margin: 1em;
+}
+
+.startedh2{
+    color: #FFB340;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+}
+
+.completed{
+    border-radius: 4px;
+    border: 1px solid rgba(7, 255, 2, 0.20);
+    background: rgba(7, 255, 2, 0.10);
+    padding: 0.7em 0.7em;
+    margin: 1em;
+}
+
+.completedh2{
+    color: #07FF02;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+}
+
+@media screen and (max-width:960px) {
+    .cardholder{
+        display: grid;
+    }
+    .cardcontent{
+        width: 100%;
+        margin: 0;
+    }
+    .taskh1{
+        font-size: 30px;
+    }
+    .btnrequest{
+        padding: 0.4em 0.4em;
+    }
+}

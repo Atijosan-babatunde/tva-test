@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+
+.parent {
+    height:110vh;
+    background: linear-gradient(180deg, rgba(0, 107, 255, 0.10) 0%, rgba(121, 81, 175, 0.10) 76.04%);
+    padding:5em 5em;
+}
+
+.content{
+    width:50%;
+    background-color: white;
+    border-radius: 16px;
+    padding:5em;
+    padding-top:2em;
+    padding-bottom:2em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgholder {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imginside {
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 1.7000em;
+    width: 100px;
+}
+.signuph1{
+    text-align: center;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.signupp{
+    text-align: center;
+    color: var(--Grey-text, #999);
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+.inputted {
+    width:70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.headwelcome {
+    color: var(--black, #050505);
+    font-family: "Gilroy";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowname {
+    color: var(--grey-text, #999);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.035px;
+    margin-top:1.7000em;
+}
+
+.calculatorinput {
+    width : 100%;
+    height: 40px;
+    margin-top: 0.4000em;
+    border-radius: 8px;
+    border: 1px solid var(--grey-50, #CCC);
+    background: var(--white-full, #FFF);
+    padding:0.5000em;
+}
+
+.calculatorinputgroup {
+    border: none ;
+}
+.forget {
+    color: var(--blue-primary, #011B6D);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    justify-content: end;
+    align-items: end;
+    float: right;
+    cursor: pointer;
+}
+
+.requestbut {
+    justify-content: center;
+    align-items: center;
+    margin-top:2.7000em;
+}
+
+.btnrequest {
+    gap: 10px;
+      border: none;
+      height: 44px;   
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.9em;
+      line-height: 28px;
+      text-align: center;
+      color: #FFFFFF;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 8px;
+      background: #2C3ADF;
+  }
+
+.btnrequest:hover {
+    background: #0e30a1;
+    color: #ffffff;
+}
+
+.donthave {
+    color: var(--grey-primary, #373737);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 1em;
+}
+
+.donthavespan{
+    color: var(--blue-primary, #011B6D);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.visibility {
+    border: none;
+    background-color: transparent;
+    padding-right:0.8000em !important;
+}
+
+.group {
+    height: 40px !important;
+    width: 100% !important;
+    margin-top: 0.4000em !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--grey-50, #CCC) !important;
+    background: var(--white-full, #FFF) !important;
+    padding:0.5000em !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+@media screen and (max-width:960px) {
+    .formholder {
+        display: grid;
+    }
+    .parent{
+        padding: 2em 2em;
+        height: 100vh;
+    }
+    .content{
+        padding: 1em;
+        width: 100%;
+    }
+    .formholderone {
+       width: 100%;
+       margin: 0;
+    }
+    .inputted {
+        width:100%;
+    }
+    .signuph1{
+        font-size: 28px;
+    }
+}

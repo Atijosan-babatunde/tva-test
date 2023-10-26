@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../shared/utils/fonts/Gilroy-Regular.ttf);
+}
+
+.parent {
+    height:100%;
+    background: linear-gradient(180deg, rgba(0, 107, 255, 0.10) 0%, rgba(121, 81, 175, 0.10) 76.04%);
+    padding:5em 5em;
+}
+
+.content{
+    /* width:70%; */
+    background-color: white;
+    border-radius: 16px;
+    padding:5em;
+    padding-top:2em;
+    padding-bottom:2em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgholder {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imginside {
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 1.7000em;
+    width: 100px;
+}
+
+.signuph1{
+    text-align: center;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.signupp{
+    text-align: center;
+    color: var(--Grey-text, #999);
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+/* // FORM STYLE */
+
+.formholder {
+    display: flex;
+    width: 100%;
+    
+}
+.businessName {
+    margin: 1em;
+}
+
+.formholderone {
+    width: 49%;
+    margin: 1em;
+    margin-top: 0em;
+}
+
+.formholdertwo {
+    width:49%;
+    margin: 1em;
+    margin-top: 0em;
+}
+
+::placeholder{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.rowname {
+    color: var(--grey-text, #999);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.035px;
+    margin-top:1.7000em;
+}
+
+.calculatorinput {
+    width : 100%;
+    height: 40px;
+    margin-top: 0.4000em;
+    border-radius: 8px;
+    border: 1px solid var(--grey-50, #CCC);
+    background: var(--white-full, #FFF);
+    padding:0.6000em;
+}
+
+.continuebutton {
+    width:45%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.clickhere {
+    color: var(--grey-primary, #373737);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+
+    
+}
+/* input{
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+    color: #;
+} */
+
+span {
+    color: var(--blue-primary, #011B6D);
+}
+
+.calculatorinputgroup {
+    border: none ;
+}
+
+.visibility {
+    border: none;
+    background-color: transparent;
+    padding-right:0.8000em !important;
+}
+
+.group {
+    height: 40px !important;
+    width: 100% !important;
+    margin-top: 0.4000em !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--grey-50, #CCC) !important;
+    background: var(--white-full, #FFF) !important;
+    padding:0.5000em !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+.requestbut {
+    justify-content: center;
+    align-items: center;
+    margin-top:1.5em;
+}
+
+.btnrequest {
+    gap: 10px;
+      border: none;
+      height: 44px;   
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.9em;
+      line-height: 28px;
+      text-align: center;
+      color: #FFFFFF;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 8px;
+      background: #2C3ADF;
+  }
+
+  .donthave {
+    color: var(--grey-primary, #373737);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 1em;
+}
+
+.donthavespan{
+    color: var(--blue-primary, #011B6D);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.passwordhandler{
+    /* background-color: #ccc; */
+    padding: 1em;
+    /* margin-top:5px; */
+}
+
+@media screen and (max-width:960px) {
+    .formholder {
+        display: grid;
+    }
+    .parent{
+        padding: 2em 2em;
+    }
+    .content{
+        padding: 2em;
+    }
+    .formholderone {
+       width: 100%;
+       margin: 0;
+    }
+    .formholdertwo{
+        width: 100%;
+        margin: 0;
+    }
+    .continuebutton {
+        width: 100%;
+    }
+}
